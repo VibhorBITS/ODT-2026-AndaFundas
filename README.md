@@ -68,7 +68,7 @@ By the final review, this README should clearly show:
 `[Enter the title of your project]`
 
 ## 1.4 One-Line Pitch
-`[Describe your project in one sentence]`
+`[A fast-paced, interactive cooking game where players crack, catch, cook, and plate a slime egg using physical controls, sensors, and timing-based challenges.]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
