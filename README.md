@@ -68,7 +68,7 @@ By the final review, this README should clearly show:
 `[Enter the title of your project]`
 
 ## 1.4 One-Line Pitch
-`[A fast-paced, interactive cooking game where players crack, catch, cook, and plate a slime egg using physical controls, sensors, and timing-based challenges.]`
+A fast-paced, interactive cooking game where players crack, catch, cook, and plate a slime egg using physical controls, sensors, and timing-based challenges.
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -78,8 +78,8 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[This project is a physical-digital hybrid cooking game inspired by high-pressure kitchen environments and playful cooking simulators. The setup consists of two stacked shelves forming a multi-stage gameplay system. In the first stage, a servo-driven plastic egg cracks open on button press, releasing slime that represents the yolk. The player must time their input precisely to catch the falling “yolk” in a bowl that continuously moves back and forth on a conveyor belt. If successful, the bowl tips at the edge, transferring the slime into a pan on the lower level. The second stage shifts from timing to spatial control: the player must hold the pan at varying heights over a NeoPixel “stove,” guided by changing light colors and measured using an ultrasonic sensor. The system evaluates how accurately and quickly the player responds to these dynamic cues.
-The experience is designed to feel tense, playful, and slightly chaotic; mirroring the pressure of real-time cooking while exaggerating it through tactile and unexpected interactions (like slime as yolk). It combines anticipation (timing the egg crack), unpredictability (moving bowl and randomized heat cues), and satisfaction (successfully completing each stage). The final outcome—ranging from undercooked to perfectly cooked to disintegrated—is determined by performance metrics such as timing and accuracy, reinforcing a sense of challenge and replayability. Technologies involved include servo motors, conveyor mechanisms, ultrasonic distance sensing, NeoPixel LEDs for feedback, and a mobile interface built with MIT App Inventor for final interaction and seasoning, blending physical computing with digital feedback into a cohesive, game-like system.]`
+This project is a physical-digital hybrid cooking game inspired by high-pressure kitchen environments and playful cooking simulators. The setup consists of two stacked shelves forming a multi-stage gameplay system. In the first stage, a servo-driven plastic egg cracks open on button press, releasing slime that represents the yolk. The player must time their input precisely to catch the falling “yolk” in a bowl that continuously moves back and forth on a conveyor belt. If successful, the bowl tips at the edge, transferring the slime into a pan on the lower level. The second stage shifts from timing to spatial control: the player must hold the pan at varying heights over a NeoPixel “stove,” guided by changing light colors and measured using an ultrasonic sensor. The system evaluates how accurately and quickly the player responds to these dynamic cues.
+The experience is designed to feel tense, playful, and slightly chaotic; mirroring the pressure of real-time cooking while exaggerating it through tactile and unexpected interactions (like slime as yolk). It combines anticipation (timing the egg crack), unpredictability (moving bowl and randomized heat cues), and satisfaction (successfully completing each stage). The final outcome—ranging from undercooked to perfectly cooked to disintegrated—is determined by performance metrics such as timing and accuracy, reinforcing a sense of challenge and replayability. Technologies involved include servo motors, conveyor mechanisms, ultrasonic distance sensing, NeoPixel LEDs for feedback, and a mobile interface built with MIT App Inventor for final interaction and seasoning, blending physical computing with digital feedback into a cohesive, game-like system.
 
 ---
 
@@ -105,8 +105,6 @@ Answer the following:
 - Why would someone want to try it again?
 
 **Response:**  
-`[2.2 What kind of experience are you creating?
-
 What is the experience?
 The project creates a fast-paced, multi-stage interactive cooking game that blends physical actions with digital feedback. Players move through a sequence of challenges such as timing the cracking of an egg, coordinating with a moving target, and then controlling distance and positioning based on real-time visual cues. It feels like a condensed, exaggerated version of a high-pressure cooking show translated into a hands-on, playful system.
 
@@ -114,7 +112,7 @@ What do you want the player or participant to feel?
 The experience is designed to make players feel anticipation, focus, and slight tension as they react to moving elements and changing cues. Instead of explicit time pressure, the uncertainty of not knowing how well they are performing adds to the engagement. There is also a sense of unpredictability and controlled chaos due to the moving conveyor and randomized heat instructions. When successful, it should feel satisfying and rewarding. The use of slime and exaggerated mechanics adds humor and lightness, keeping the experience playful rather than stressful.
 
 Why would someone want to try it again?
-The game encourages replayability through variability and delayed feedback. Since players only discover the final result at the end, there is curiosity about how their actions translated into outcomes. The moving elements and randomized instructions ensure each attempt feels different. Players are motivated to improve their results from undercooked or disintegrated to perfectly cooked, creating a natural progression and challenge. The tactile interaction and slightly messy, unexpected nature of the slime also make it enjoyable to repeat and watch others play.]`
+The game encourages replayability through variability and delayed feedback. Since players only discover the final result at the end, there is curiosity about how their actions translated into outcomes. The moving elements and randomized instructions ensure each attempt feels different. Players are motivated to improve their results from undercooked or disintegrated to perfectly cooked, creating a natural progression and challenge. The tactile interaction and slightly messy, unexpected nature of the slime also make it enjoyable to repeat and watch others play.
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -122,7 +120,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[We are designing this project as if we are a small creative studio making a playable interactive experience for classmates and exhibition visitors.]`
+We are designing this project as if we are a small creative studio making a playable interactive experience for classmates and exhibition visitors.
 
 ---
 
