@@ -246,8 +246,11 @@ Include:
 - app interaction if any.
 
 **Response:**  
-`[Write here]`
+The system is built around an ESP32 that connects multiple inputs, outputs, and mechanical components to create a multi-stage interactive game. The main input begins with a button press that triggers servo motors to crack open a plastic egg. Additional input comes from an ultrasonic sensor that detects the height of the pan during the cooking stage. The player also interacts through a mobile interface built using MIT App Inventor for the final seasoning step.
 
+The ESP32 processes these inputs by controlling timing, coordinating motor movements, and comparing sensor data against predefined conditions. Based on this, it activates outputs such as servo motion for the egg, a motorized conveyor belt for bowl movement, and NeoPixel LEDs that provide real-time visual instructions through color changes.
+
+The physical structure consists of two stacked shelves. The top layer handles the egg cracking and catching mechanism, while the bottom layer handles the cooking simulation using the pan, sensor, and lighting system. The mobile app acts as a final interaction layer where players complete the experience. Together, these components create a continuous loop of physical action, sensing, and responsive feedback.
 ## 6.3 Input / Output Map
 
 | System Part | Type | What It Does |
