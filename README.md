@@ -155,7 +155,8 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[Write here]`
+press button → egg cracks → attempt to catch yolk in moving bowl → bowl tips into pan → adjust pan height based on light cues → sensor validates position → repeat adjustments → final result revealed → reset and play again
+
 
 ## 4.2 Intended Player / Audience
 
