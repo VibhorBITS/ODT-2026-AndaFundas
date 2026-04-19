@@ -65,7 +65,7 @@ By the final review, this README should clearly show:
 
 
 ## 1.3 Project Title
-`[Enter the title of your project]`
+`Hen's Kitchen`
 
 ## 1.4 One-Line Pitch
 A fast-paced, interactive cooking game where players crack, catch, cook, and plate a slime egg using physical controls, sensors, and timing-based challenges.
