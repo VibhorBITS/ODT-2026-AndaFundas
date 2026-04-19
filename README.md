@@ -131,8 +131,8 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[Papa's Pizzeria]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[Pink Palace]` | `[Link or title]` | `[What did you learn or borrow?]` |
 | `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
 
 ## 3.2 Original Twist
@@ -183,7 +183,7 @@ Describe exactly how a player will use the project.
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
+- `Egg yolk must land in the bowl to proceed to the next stage`
 - `[Rule 2]`
 - `[Rule 3]`
 - `[Rule 4]`
@@ -195,11 +195,12 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Condition 1]`
-- [ ] `[Condition 2]`
-- [ ] `[Condition 3]`
-- [ ] `[Condition 4]`
-- [ ] `[Condition 5]`
+- [ ] `Servos successfully release egg yolk slime on button press`
+- [ ] `[Conveyor belt tips over slime into pan]`
+- [ ] `[Neopixel changes to color red for ]`
+- [ ] `[Neopixel changes to color orange for ]`
+- [ ] `[Neopixel changes to color yellow for ]`
+- [ ] `[MIT App Inventor ]`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
@@ -221,16 +222,16 @@ What features are nice to have but not essential?
 ## 6.1 Project Type
 Check all that apply.
 
-- [ ] Electronics-based
-- [ ] Mechanical
-- [ ] Sensor-based
-- [ ] App-connected
-- [ ] Motorized
+- [-] Electronics-based
+- [-] Mechanical
+- [-] Sensor-based
+- [-] App-connected
+- [-] Motorized
 - [ ] Sound-based
 - [ ] Light-based
-- [ ] Screen/UI-based
-- [ ] Fabricated structure
-- [ ] Game logic based
+- [-] Screen/UI-based
+- [-] Fabricated structure
+- [-] Game logic based
 - [ ] Installation / tabletop experience
 - [ ] Other: `[Write here]`
 
