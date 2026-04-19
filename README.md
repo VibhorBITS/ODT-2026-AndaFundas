@@ -222,16 +222,16 @@ What features are nice to have but not essential?
 ## 6.1 Project Type
 Check all that apply.
 
-[-] Electronics-based
-- [-] Mechanical
-- [-] Sensor-based
-- [-] App-connected
-- [-] Motorized
+- [x] Electronics-based
+- [x] Mechanical
+- [x] Sensor-based
+- [x] App-connected
+- [x] Motorized
 - [ ] Sound-based
 - [ ] Light-based
-- [-] Screen/UI-based
-- [-] Fabricated structure
-- [-] Game logic based
+- [x] Screen/UI-based
+- [x] Fabricated structure
+- [x] Game logic based
 - [ ] Installation / tabletop experience
 - [ ] Other: `[Write here]`
 
