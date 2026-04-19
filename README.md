@@ -162,12 +162,12 @@ press button → egg cracks → attempt to catch yolk in moving bowl → bowl ti
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Write here]` |
-| Age range | `[Write here]` |
-| Solo or multiplayer | `[Write here]` |
-| Expected duration of one round | `[Write here]` |
-| What should the player feel? | `[Write here]` |
-| Is explanation required before use? | `[Write here]` |
+| Who is this for? | `[Classmates and exhibition visitors who are interested in playful, interactive installations]` |
+| Age range | `[13–25]` |
+| Solo or multiplayer | `[Solo]` |
+| Expected duration of one round | `[1–2.5 minutes]` |
+| What should the player feel? | `[Anticipation, focus, curiosity, and satisfaction, along with light humor from the messy and unpredictable interactions]` |
+| Is explanation required before use? | `[Yes, a short initial explanation is needed for controls and stages]` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
