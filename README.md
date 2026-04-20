@@ -61,7 +61,7 @@ By the final review, this README should clearly show:
 | `Vibhor` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Conveyor Belt{coding, mechanics, building and assembly}]` | `[Write here]` |
 | `Ranya` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
 | `Anusha` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
-| `Avani` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `Avani` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Complete functioning of app, connection to Thonny code, building and finalising of structure & aesthetics]` | `[Write here]` |
 
 
 ## 1.3 Project Title
