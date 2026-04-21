@@ -131,19 +131,23 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Papa's Pizzeria]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Pink Palace]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[Papa's Pizzeria]` | `https://papaspizzeria.io/` | `[Borrowed the concept of a cooking game with different stages for each process]` |
+| `[Purble Place]` | `(https://purbleplace-online.com/]` | `[Borrowed the concept of a cooking game with different stages for each process]` |
 | `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[Write here]`
+`[What makes Hen’s Kitchen original is that it blends a real physical cooking process with the structure of a multi-level digital game, so it feels like a real-life version of a cooking simulator. Instead of the player only tapping on a screen, the gameplay depends on actual motion, gravity, timing, and interaction. Cracking a real egg, watching it fall through different stages, and physically catching it in the right place.
+
+The project is also unique because each stage focuses on timing-based precision (dropping the egg into the moving bowl), hand-eye coordination (catching it in the pan), reflex-based decision making (reacting to changing Neopixel flame colours), and creativity/personalization (adding toppings through the MIT app). This mix makes it feel like a complete cooking process.
+
+Most importantly, the identity of the game (the hen mascot, the vertical wooden structure, and the real egg interaction) makes it playful and memorable. It stands out from typical cooking games because it combines physical gameplay with digital scoring, making the whole experience more interactive and engaging.]`
 
 ---
 
-# 4. Project Intent
+# 4. Project IntentS
 
 ## 4.1 Core Interaction Loop
 Describe the main loop of interaction.
@@ -172,21 +176,32 @@ press button → egg cracks → attempt to catch yolk in moving bowl → bowl ti
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[How does the player first encounter it?]`
-2. **Start:** `[How do they begin?]`
-3. **First Action:** `[What do they do first?]`
-4. **Main Interaction:** `[What keeps happening during use?]`
-5. **System Response:** `[How does the project respond?]`
-6. **Win / Lose / End Condition:** `[How does one round end?]`
-7. **Reset:** `[How does the next round begin?]`
+1. **Approach:** `[The player walks up to the Hen’s Kitchen setup and sees the vertical wooden structure with the hen at the top, the bowl system in the middle, and the stove/pan stage below. They also notice the button controls and the MIT app interface.]`
+2. **Start:** `[The player is instructed to begin and the system activates the moving bowl mechanism. The game begins once the bowl starts sliding back and forth via the conveyor belt under the egg drop point.]`
+3. **First Action:** `[The player’s first task is to time the egg crack. They press the switch labelled "Crack Egg!" to trigger the servo motor mechanism so the eggshells open and drop the egg at the exact moment the bowl is positioned underneath.]`
+4. **Main Interaction:** `[The player continues through the stages in order:
+-They try to successfully drop the egg into the moving bowl.
+-Once the egg lands, the bowl automatically moves, rotates and drops the egg down.
+-The player must catch the egg using the pan placed underneath.
+-Then they move into the stove stage where the Neopixel flame changes colours and they must react quickly to avoid over/undercooking.
+-Finally, they use the MIT app to draw toppings onto the egg image.]`
+5. **System Response:** `[The system responds in real time by moving the bowl, triggering the rotation once the egg hits the switch, lighting up the Neopixel stove in different flame colours, and tracking the player’s reaction speed and accuracy.]`
+6. **Win / Lose / End Condition:** `[The first stage ends once the egg successfully falls into the bowl (by triggering a switch inside the bowl). The second round ends once the egg falls into the pan, upon which the third round begins (the neopixel starts lighting up). The neopixel lights up green to indicate the ending og the neopixel round. The player then moves to the topping stage in the MIT app. The game ends after the topping stage is completed.]`
+7. **Reset:** `[The system resets by returning the bowl to its starting position, turning off the Neopixel stove, and preparing the egg drop mechanism again. The next player can then start a new round.]`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `Egg yolk must land in the bowl to proceed to the next stage`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
+- `The player must crack the egg only when the moving bowl is directly under the egg opening.`
+- `[The egg must land inside the bowl to proceed to the next stage. If the egg misses the bowl, the game ends.]`
+- `[Once the egg lands, the bowl will automatically move, rotate and drop the egg]`
+- `[The player must place the pan correctly under the bowl to catch the egg. If the egg falls outside the pan, the game ends.]`
+- `[The player must place the pan correctly under the bowl to catch the egg. If the egg falls outside the pan, the game ends.]`
+- `[During the stove stage, the Neopixel flame changes colours randomly. The player must react quickly to the colour changes to gain points.]`
+- `[The faster the player reacts to the colour change, the higher their score. Delayed reaction reduces points.]`
+- `[If the player reacts too late or misses the colour changes, the egg is given a rating of overcooked/undercooked/burnt based on the time and points are deducted.]`
+- `[In the toppings stage, the player must draw toppings using the MIT app.]`
+- `[The game successfully ends once the toppings stage is completed and the final score is displayed.]`
 
 ---
 
@@ -195,12 +210,12 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `Servos successfully release egg yolk slime on button press`
-- [ ] `[Conveyor belt tips over slime into pan]`
-- [ ] `[Neopixel changes to color red for ]`
-- [ ] `[Neopixel changes to color orange for ]`
-- [ ] `[Neopixel changes to color yellow for ]`
-- [ ] `[MIT App Inventor ]`
+- [ ] `[Servos successfully release egg yolk slime on button press.]`
+- [ ] `[Conveyor belt tips over the egg into the pan]`
+- [ ] `[Neopixel changes to color red, asking the player to move the pan closer to the flame]`
+- [ ] `[Neopixel changes to color orange, asking the player to move the pan a bit higher from the flame]`
+- [ ] `[Neopixel changes to color blue, asking the player to move the pan vertically away from the flame]`
+- [ ] `[MIT App Inventor opens the egg image and allows player to draw on it.]`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
@@ -228,7 +243,7 @@ Check all that apply.
 - [x] App-connected
 - [x] Motorized
 - [ ] Sound-based
-- [ ] Light-based
+- [x] Light-based
 - [x] Screen/UI-based
 - [x] Fabricated structure
 - [x] Game logic based
@@ -251,6 +266,7 @@ The system is built around an ESP32 that connects multiple inputs, outputs, and 
 The ESP32 processes these inputs by controlling timing, coordinating motor movements, and comparing sensor data against predefined conditions. Based on this, it activates outputs such as servo motion for the egg, a motorized conveyor belt for bowl movement, and NeoPixel LEDs that provide real-time visual instructions through color changes.
 
 The physical structure consists of two stacked shelves. The top layer handles the egg cracking and catching mechanism, while the bottom layer handles the cooking simulation using the pan, sensor, and lighting system. The mobile app acts as a final interaction layer where players complete the experience. Together, these components create a continuous loop of physical action, sensing, and responsive feedback.
+
 ## 6.3 Input / Output Map
 
 | System Part | Type | What It Does |
