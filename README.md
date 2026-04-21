@@ -131,19 +131,19 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Papa's Pizzeria]` | `https://papaspizzeria.io/` | `[Borrowed the concept of a cooking game with different stages for each process]` |
-| `[Purble Place]` | `(https://purbleplace-online.com/]` | `[Borrowed the concept of a cooking game with different stages for each process]` |
+| `Papa's Pizzeria]` | `https://papaspizzeria.io/` | `Borrowed the concept of a cooking game with different stages for each process` |
+| `Purble Place]` | `https://purbleplace-online.com/` | `Borrowed the concept of a cooking game with different stages for each process` |
 | `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[What makes Hen’s Kitchen original is that it blends a real physical cooking process with the structure of a multi-level digital game, so it feels like a real-life version of a cooking simulator. Instead of the player only tapping on a screen, the gameplay depends on actual motion, gravity, timing, and interaction. Cracking a real egg, watching it fall through different stages, and physically catching it in the right place.
+`What makes Hen’s Kitchen original is that it blends a real physical cooking process with the structure of a multi-level digital game, so it feels like a real-life version of a cooking simulator. Instead of the player only tapping on a screen, the gameplay depends on actual motion, gravity, timing, and interaction. Cracking a real egg, watching it fall through different stages, and physically catching it in the right place.
 
 The project is also unique because each stage focuses on timing-based precision (dropping the egg into the moving bowl), hand-eye coordination (catching it in the pan), reflex-based decision making (reacting to changing Neopixel flame colours), and creativity/personalization (adding toppings through the MIT app). This mix makes it feel like a complete cooking process.
 
-Most importantly, the identity of the game (the hen mascot, the vertical wooden structure, and the real egg interaction) makes it playful and memorable. It stands out from typical cooking games because it combines physical gameplay with digital scoring, making the whole experience more interactive and engaging.]`
+Most importantly, the identity of the game (the hen mascot, the vertical wooden structure, and the real egg interaction) makes it playful and memorable. It stands out from typical cooking games because it combines physical gameplay with digital scoring, making the whole experience more interactive and engaging.`
 
 ---
 
