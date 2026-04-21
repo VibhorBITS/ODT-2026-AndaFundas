@@ -166,42 +166,42 @@ press button → egg cracks → attempt to catch yolk in moving bowl → bowl ti
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Classmates and exhibition visitors who are interested in playful, interactive installations]` |
-| Age range | `[13–25]` |
-| Solo or multiplayer | `[Solo]` |
-| Expected duration of one round | `[1–2.5 minutes]` |
-| What should the player feel? | `[Anticipation, focus, curiosity, and satisfaction, along with light humor from the messy and unpredictable interactions]` |
-| Is explanation required before use? | `[Yes, a short initial explanation is needed for controls and stages]` |
+| Who is this for? | `Classmates and exhibition visitors who are interested in playful, interactive installations]` |
+| Age range | `13–25` |
+| Solo or multiplayer | `Solo` |
+| Expected duration of one round | `1–2.5 minutes` |
+| What should the player feel? | `Anticipation, focus, curiosity, and satisfaction, along with light humor from the messy and unpredictable interactions` |
+| Is explanation required before use? | `Yes, a short initial explanation is needed for controls and stages` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[The player walks up to the Hen’s Kitchen setup and sees the vertical wooden structure with the hen at the top, the bowl system in the middle, and the stove/pan stage below. They also notice the button controls and the MIT app interface.]`
-2. **Start:** `[The player is instructed to begin and the system activates the moving bowl mechanism. The game begins once the bowl starts sliding back and forth via the conveyor belt under the egg drop point.]`
-3. **First Action:** `[The player’s first task is to time the egg crack. They press the switch labelled "Crack Egg!" to trigger the servo motor mechanism so the eggshells open and drop the egg at the exact moment the bowl is positioned underneath.]`
-4. **Main Interaction:** `[The player continues through the stages in order:
+1. **Approach:** `The player walks up to the Hen’s Kitchen setup and sees the vertical wooden structure with the hen at the top, the bowl system in the middle, and the stove/pan stage below. They also notice the button controls and the MIT app interface.`
+2. **Start:** `The player is instructed to begin and the system activates the moving bowl mechanism. The game begins once the bowl starts sliding back and forth via the conveyor belt under the egg drop point.`
+3. **First Action:** `The player’s first task is to time the egg crack. They press the switch labelled "Crack Egg!" to trigger the servo motor mechanism so the eggshells open and drop the egg at the exact moment the bowl is positioned underneath.`
+4. **Main Interaction:** `The player continues through the stages in order:
 -They try to successfully drop the egg into the moving bowl.
 -Once the egg lands, the bowl automatically moves, rotates and drops the egg down.
 -The player must catch the egg using the pan placed underneath.
 -Then they move into the stove stage where the Neopixel flame changes colours and they must react quickly to avoid over/undercooking.
--Finally, they use the MIT app to draw toppings onto the egg image.]`
-5. **System Response:** `[The system responds in real time by moving the bowl, triggering the rotation once the egg hits the switch, lighting up the Neopixel stove in different flame colours, and tracking the player’s reaction speed and accuracy.]`
-6. **Win / Lose / End Condition:** `[The first stage ends once the egg successfully falls into the bowl (by triggering a switch inside the bowl). The second round ends once the egg falls into the pan, upon which the third round begins (the neopixel starts lighting up). The neopixel lights up green to indicate the ending og the neopixel round. The player then moves to the topping stage in the MIT app. The game ends after the topping stage is completed.]`
-7. **Reset:** `[The system resets by returning the bowl to its starting position, turning off the Neopixel stove, and preparing the egg drop mechanism again. The next player can then start a new round.]`
+-Finally, they use the MIT app to draw toppings onto the egg image.`
+5. **System Response:** `The system responds in real time by moving the bowl, triggering the rotation once the egg hits the switch, lighting up the Neopixel stove in different flame colours, and tracking the player’s reaction speed and accuracy.`
+6. **Win / Lose / End Condition:** `The first stage ends once the egg successfully falls into the bowl (by triggering a switch inside the bowl). The second round ends once the egg falls into the pan, upon which the third round begins (the neopixel starts lighting up). The neopixel lights up green to indicate the ending og the neopixel round. The player then moves to the topping stage in the MIT app. The game ends after the topping stage is completed.`
+7. **Reset:** `The system resets by returning the bowl to its starting position, turning off the Neopixel stove, and preparing the egg drop mechanism again. The next player can then start a new round.`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
 - `The player must crack the egg only when the moving bowl is directly under the egg opening.`
-- `[The egg must land inside the bowl to proceed to the next stage. If the egg misses the bowl, the game ends.]`
-- `[Once the egg lands, the bowl will automatically move, rotate and drop the egg]`
-- `[The player must place the pan correctly under the bowl to catch the egg. If the egg falls outside the pan, the game ends.]`
-- `[The player must place the pan correctly under the bowl to catch the egg. If the egg falls outside the pan, the game ends.]`
-- `[During the stove stage, the Neopixel flame changes colours randomly. The player must react quickly to the colour changes to gain points.]`
-- `[The faster the player reacts to the colour change, the higher their score. Delayed reaction reduces points.]`
-- `[If the player reacts too late or misses the colour changes, the egg is given a rating of overcooked/undercooked/burnt based on the time and points are deducted.]`
-- `[In the toppings stage, the player must draw toppings using the MIT app.]`
-- `[The game successfully ends once the toppings stage is completed and the final score is displayed.]`
+- `The egg must land inside the bowl to proceed to the next stage. If the egg misses the bowl, the game ends.`
+- `Once the egg lands, the bowl will automatically move, rotate and drop the egg`
+- `The player must place the pan correctly under the bowl to catch the egg. If the egg falls outside the pan, the game ends.`
+- `The player must place the pan correctly under the bowl to catch the egg. If the egg falls outside the pan, the game ends.`
+- `During the stove stage, the Neopixel flame changes colours randomly. The player must react quickly to the colour changes to gain points.`
+- `The faster the player reacts to the colour change, the higher their score. Delayed reaction reduces points.`
+- `If the player reacts too late or misses the colour changes, the egg is given a rating of overcooked/undercooked/burnt based on the time and points are deducted.`
+- `In the toppings stage, the player must draw toppings using the MIT app.`
+- `The game successfully ends once the toppings stage is completed and the final score is displayed.`
 
 ---
 
@@ -210,25 +210,25 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Servos successfully release egg yolk slime on button press.]`
-- [ ] `[Conveyor belt tips over the egg into the pan]`
-- [ ] `[Neopixel changes to color red, asking the player to move the pan closer to the flame]`
-- [ ] `[Neopixel changes to color orange, asking the player to move the pan a bit higher from the flame]`
-- [ ] `[Neopixel changes to color blue, asking the player to move the pan vertically away from the flame]`
-- [ ] `[MIT App Inventor opens the egg image and allows player to draw on it.]`
+- [ ] `Servos successfully release egg yolk slime on button press.`
+- [ ] `Conveyor belt tips over the egg into the pan`
+- [ ] `Neopixel changes to color red, asking the player to move the pan closer to the flame`
+- [ ] `Neopixel changes to color orange, asking the player to move the pan a bit higher from the flame`
+- [ ] `Neopixel changes to color blue, asking the player to move the pan vertically away from the flame`
+- [ ] `MIT App Inventor opens the egg image and allows player to draw on it.`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
 
 **Response:**  
-`[Write here]`
+`The minimum viable version of Hen’s Kitchen would include the core physical gameplay of timing and reaction. This would mean having the moving bowl stage where the player must correctly time the egg drop using a button. After that, the egg would drop into a pan and the Neopixel stove stage would run, where the player reacts to flame colour changes for points. Minimally, it should deliver a fun, interactive experience even without mechanisms, extra visual effects or toppings.`
 
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
 
-- `[Stretch feature 1]`
-- `[Stretch feature 2]`
-- `[Stretch feature 3]`
+- `Visually appealing structure, interface, extra animations/sound effects like hen noises, sizzling sounds, and music`
+- `A leaderboard system to compare scores between players`
+- `Difficulty modes (easy/medium/hard) with faster bowl movement and quicker flame changes`
 
 ---
 
@@ -271,10 +271,17 @@ The physical structure consists of two stacked shelves. The top layer handles th
 
 | System Part | Type | What It Does |
 |---|---|---|
-| `[Button / Sensor / Switch / App Input]` | Input | `[Describe]` |
-| `[ESP32 / Controller]` | Processing | `[Describe]` |
-| `[LED / Motor / Servo / Buzzer / Display]` | Output | `[Describe]` |
-| `[Mechanical Assembly]` | Physical Action | `[Describe]` |
+| `Switch` | Input | `Player presses it to trigger the egg cracking/drop mechanism at the correct time.` |
+| `Switch` | Input | `Detects when the egg lands in the bowl and triggers the next stage automatically.` |
+| `Ultrasonic Sensor` | Input | `Detects the distance of the pan from the Neopixel to measure reaction time` |
+| `MIT App` | Input | `Player draws/adds toppings digitally on the egg image as the final customization stage.` |
+| `ESP32` | Processing | `Controls the full sequence of stages, reads button/switch inputs, and calculates scoring.` |
+| `Servo (x2)` | Output | `Activates the egg cracking action when the player presses the button.` |
+| `DC Motor` | Output | `Moves the bowl left and right continuously to create a timing challenge.` |
+| `Neopixel Ring` | Output | `Displays changing flame colours to simulate cooking and create the reaction challenge.` |
+| `App Screen` | Output | `Shows image, player's toppings and final grading` |
+| `Wooden Vertical Structure` | Physical Action | `Guides the egg through gravity-based falling stages from top to bottom.` |
+| `Conveyor Belt` | Physical Action | `Allows the bowl to move back and forth to catch the egg, then moves the bowl to rotate and drop the egg into the pan` |
 
 ---
 
