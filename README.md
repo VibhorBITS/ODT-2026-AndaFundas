@@ -313,10 +313,10 @@ Add a sketch with labels showing:
 
 | Dimension | Value |
 |---|---|
-| Length | `[Write here]` |
-| Width | `[Write here]` |
-| Height | `[Write here]` |
-| Estimated weight | `[Write here]` |
+| Length | `[7.5 inches]` |
+| Width | `[24.5 inches]` |
+| Height | `[28 inches]` |
+| Estimated weight | `[4.5 kgs]` |
 
 ---
 
@@ -327,7 +327,7 @@ Check all that apply.
 
 - [ ] Gears
 - [ ] Pulleys
-- [ ] Belt drives
+- [x] Belt drives
 - [ ] Linkages
 - [ ] Hinges
 - [ ] Shafts
