@@ -867,8 +867,8 @@ Expected outcomes:
 
 | Week | Planned Goal | What Actually Happened | What Changed | Next Steps |
 |---|---|---|---|---|
-| Week 1 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 2 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 1 | `[Idea finalized, Core interaction decided, Sketches made ` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 2 | `[BOM completed, Purchase needs identified, Key uncertainty identified, Basic feasibility tested]` | `[Write here]` | `[Write here]` | `[Write here]` |
 | Week 3 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
 | Week 4 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
 
