@@ -342,11 +342,11 @@ Check all that apply.
 Describe the mechanism and what it is meant to do.
 
 **Response:**  
-`Button press opens servos → egg drops
-Bowl moves side-to-side on conveyor belt
-Egg lands in bowl → switch gets pressed
-Switch triggers bowl to move forward + tip over
-Egg falls out → player catches using pan`
+`Button press opens servos → egg drops`
+`Bowl moves side-to-side on conveyor belt`
+`Egg lands in bowl → switch gets pressed`
+`Switch triggers bowl to move forward + tip over`
+`Egg falls out → player catches using pan`
 
 ## 8.3 Motion Planning
 If something moves, explain:
@@ -357,32 +357,31 @@ If something moves, explain:
 - what could go wrong.
 
 **Response:**  
-`What moves:
-Egg servos
-Conveyor belt bowl
-Bowl tipping mechanism
-Player pan`
+`What moves:`
+`Egg servos`
+`Conveyor belt bowl`
+`Bowl tipping mechanism`
 
-`What causes movement:
-Button triggers egg drop
-Motor moves conveyor
-Switch triggers tipping`
+`What causes movement:`
+`Button triggers egg drop`
+`Motor moves conveyor`
+`Switch triggers tipping`
 
-`How far it moves:
-Bowl moves across belt length
-Servos rotate ~90°
-Bowl tips`
+`How far it moves:`
+`Bowl moves across belt length`
+`Servos rotate ~90°`
+`Bowl tips over`
 
-`How fast it moves:
-Bowl moves constant speed
-Tip action is quick
-Servos crack egg in a quick action`
+`How fast it moves:`
+`Bowl moves constant speed`
+`Tip action is quick`
+`Servos crack egg in a quick action`
 
-`What could go wrong:
-Egg misses bowl
-Egg doesn’t press switch
-Belt gets stuck
-Egg misses pan`
+`What could go wrong:`
+`Egg misses bowl`
+`Egg doesn’t press switch`
+`Belt gets stuck`
+`Egg misses pan`
 
 ## 8.4 Simulation / CAD / Animation Before Making
 If your project includes mechanical motion, document the digital planning before fabrication.
@@ -407,14 +406,26 @@ What changed after the CAD, animation, or simulation stage?
 | Component | Quantity | Purpose |
 |---|---:|---|
 | `[ESP32]` | `1` | `[Main controller]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
+| `[Servo Motors]` | `[2]` | `[Egg cracking]` |
+| `[DC motor + Motor driver]` | `[2]` | `[Conveyor belt movement]` |
+| `[Neopixel ring]` | `[1]` | `[Stove flame colour changing]` |
+| `[Ultrasonic sensor]` | `[1]` | `[Detect pan distance from stove]` |
+| `[Limit switch]` | `[2]` | `[Triggers egg cracking and triggers bowl tipping once egg lands in the bowl]` |
+| `[External power supply]` | `[2]` | `[Powers all input and output components]` |
 
 ## 9.2 Wiring Plan
 Describe the main electrical connections.
 
-**Response:**  
-`[Write here]`
+**Response:**
+`ESP32 controls all components.`
+`2 breadboards with 2 external power supplies connected to 1 ESP32.`
+`1 power supply reserved to run the DC motor due to voltage requirement`  
+`DC motor connected to motor driver which connects to ESP32 pins for control`  
+`Limit switches connected to ESP32 input pin and GND`  
+`Servo motors connected to ESP32 PWM pins and external power supply GND and 5V`  
+`Neopixel connected to ESP32 pin and GND and 3V3`  
+`Ultrasonic sensor trig and echo connected to ESP32 pins`  
+`GND to GND between ESP32 and power supplies & between the 2 breadboards`
 
 ## 9.3 Circuit Diagram
 Insert a hand-drawn or software-made circuit diagram.
@@ -426,10 +437,10 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question | Response |
 |---|---|
-| Power source | `[USB / battery / adapter / other]` |
-| Voltage required | `[Write here]` |
-| Current concerns | `[Write here]` |
-| Safety concerns | `[Write here]` |
+| Power source | `[adapter]` |
+| Voltage required | `[5V for servos, 6-12V for DC motor]` |
+| Current concerns | `[require 2 power supplies as DC motor voltage requirement is already large]` |
+| Safety concerns | `[accidental GND to voltage connection, connection to VIN, fusing of esp32 and power supplies]` |
 
 ---
 
@@ -439,8 +450,8 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Tool / Platform | Purpose |
 |---|---|
-| `[MicroPython / Arduino / MIT App Inventor / CAD tool / other]` | `[Purpose]` |
-| `[Tool]` | `[Purpose]` |
+| `[MicroPython & Thonny IDE]` | `[Programming motors and servos, writing & sending code to ESP32]` |
+| `[MIT App Inventor]` | `[Creating toppings interface and displaying the egg player has cooked with rating]` |
 
 ## 10.2 Software Logic
 Describe what the code must do.
