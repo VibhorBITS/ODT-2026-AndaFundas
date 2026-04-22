@@ -728,11 +728,19 @@ Insert a sketch or screenshot of the app interface.
 
 ## 11.5 App Screen Flow
 
-1. `[Step 1]`
-2. `[Step 2]`
-3. `[Step 3]`
-4. `[Step 4]`
-
+1. `Player taps “Get Result” button to get their result from the Ultrasonic/Neopixel game.`
+2. `⁠Final score and egg state from the game prints on the screen on the label.`
+3. `⁠The final score shows respective image of the state of the egg.`
+4. `If score ≤ 20, egg is burnt; ≤ 40, egg is undercooked; ≤ 60, egg is overcooked else, egg is perfectly cooked.`
+5. `⁠Player chooses colour to draw with and draws on the canvas with the image; colours can be changed as and when they want.`
+6. `Colour preview shows which colour brush is chosen.`
+7. `⁠Player can choose brush size on the slider.`
+8. `⁠If any mistake, player can undo their stroke.`
+9. `Player can toggle on and off the eraser button to erase a stroke.`
+10. `⁠Clear canvas cleans the canvas of any strokes completely.`
+11. `Player may or may not enter name (leaves the file name as “Player”).`
+12. `After finishing, player taps on “Submit button”.`
+13. `⁠Image gets saved as: PlayerName (or Player)_finalScore_eggState_Date (MMDDYYYY)_Time (HHMMSS).png in Downloads.`
 ---
 
 # 12. Bill of Materials
