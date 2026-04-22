@@ -58,7 +58,7 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `Vibhor` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Conveyor Belt{coding, mechanics, building and assembly}]` | `[Write here]` |
+| `Vibhor` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Conveyor Belt{coding, mechanics, building and assembly}, repo updation till 4.4, ODT parts' sketches]` | `[Write here]` |
 | `Ranya` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Cracking egg mechanism (servo coding, building, assembling); planning and execution of physical structure and props]` | `[Write here]` |
 | `Anusha` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
 | `Avani` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Complete functioning of app, connection to Thonny code, building and finalising of structure & aesthetics]` | `[Write here]` |
