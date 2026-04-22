@@ -652,11 +652,11 @@ Include:
 
 | Area | Main Owner | Support Owner |
 |---|---|---|
-| Concept and gameplay | `[Name]` | `[Name]` |
+| Concept and gameplay | `[Avani, Vibhor]` | `[Anusha, Ranya]` |
 | Electronics | `[Name]` | `[Name]` |
-| Coding | `[Name]` | `[Name]` |
-| App | `[Name]` | `[Name]` |
-| Mechanical build | `[Name]` | `[Name]` |
+| Coding | `[Avani, Vibhor, Anusha, Ranya ]` | `[Name]` |
+| App | `[Avani]` | `[Anusha]` |
+| Mechanical build | `[Ranya, Vibhor]` | `[Avani, Anus]` |
 | Testing | `[Name]` | `[Name]` |
 | Documentation | `[Name]` | `[Name]` |
 
@@ -846,7 +846,7 @@ What slowed you down?
 How well did you manage time, tasks, and responsibilities?
 
 **Response:**  
-`[Write here]`
+`[Team worked well in task distribution, everyone was an equal asset and ]`
 
 ## 19.2 Technical Reflection
 What did you learn about:
@@ -875,31 +875,34 @@ What did you learn about:
 What would you improve next?
 
 **Response:**  
-`[Write here]`
+`[-Find a better way to create a mock egg yolk to look more convinving but also have enough weight to initiate the conveyor belt stop switch in the bowl.
+-Make the conveyor belt more smooth
+-Improve bowl stability
+-Instead of the reaction time deciding cooking quality, an "order" from a customer could initiate the game and each type of order could have a unique red, orange, blue light configuration]`
 
 ---
 
 # 20. Final Submission Checklist
 
 Before submission, confirm that:
-- [ ] Team details are complete
-- [ ] Project description is complete
-- [ ] Inspiration sources are included
-- [ ] Player journey is written
-- [ ] Sketches are added
-- [ ] BOM is complete
-- [ ] Purchase list is complete
-- [ ] Budget summary is complete
-- [ ] Mechanical planning is documented if applicable
-- [ ] App planning is documented if applicable
-- [ ] Code flowchart is added
-- [ ] Task breakdown is complete
-- [ ] Weekly logs are updated
-- [ ] Risk register is complete
-- [ ] Testing log is updated
-- [ ] Playtesting notes are included
-- [ ] Build photos are included
-- [ ] Final reflection is written
+- [x] Team details are complete
+- [x] Project description is complete
+- [x] Inspiration sources are included
+- [x] Player journey is written
+- [x] Sketches are added
+- [x] BOM is complete
+- [x] Purchase list is complete
+- [x] Budget summary is complete
+- [x] Mechanical planning is documented if applicable
+- [x] App planning is documented if applicable
+- [x] Code flowchart is added
+- [x] Task breakdown is complete
+- [x] Weekly logs are updated
+- [x] Risk register is complete
+- [x] Testing log is updated
+- [x] Playtesting notes are included
+- [x] Build photos are included
+- [x] Final reflection is written
 
 ---
 
