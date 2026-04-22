@@ -388,14 +388,13 @@ If your project includes mechanical motion, document the digital planning before
 
 | Tool Used | File / Link | What Was Tested |
 |---|---|---|
-| `[Fusion 360 / Tinkercad / other]` | `[Link or screenshot]` | `[What did you validate?]` |
-| `[Tool]` | `[Link or screenshot]` | `[What did you validate?]` |
+| `[N/A]` | `[N/A]` | `[N/A]` |
 
 ## 8.5 Changes After Digital Testing
 What changed after the CAD, animation, or simulation stage?
 
 **Response:**  
-`[Write here]`
+`[N/A]`
 
 ---
 
@@ -520,7 +519,171 @@ Suggested sequence:
 ## 10.4 Pseudocode
 
 ```text
-[Write your pseudocode here]
+[INITIALIZE servo1 on pin 18
+INITIALIZE servo2 on pin 5
+INITIALIZE button on pin 15 (pull-up)
+
+DEFINE function angle_to_duty(angle):
+    CONVERT angle (0–180) → PWM duty
+
+DEFINE function set_angle_servo1(angle):
+    APPLY duty to servo1
+
+DEFINE function set_angle_servo2(angle):
+    APPLY duty to servo2
+
+SET initial positions:
+    servo1 → 180°
+    servo2 → 0°
+
+SET servo_active = FALSE
+SET servo_timer = 0
+
+LOOP:
+    IF button is pressed AND servo not active:
+        MOVE both servos to 90°
+        SET servo_active = TRUE
+        RECORD current time
+
+    IF servo_active:
+        AFTER 1.2 seconds:
+            RESET servos to initial positions
+
+        AFTER 2.5 seconds:
+            SET servo_active = FALSE
+            
+            INITIALIZE motor pins IN1, IN2, ENA
+SET PWM frequency
+
+INITIALIZE stop switch (pull-up)
+
+DEFINE:
+    forward() → motor rotates forward
+    backward() → motor rotates backward
+    stop_motor() → motor stops
+
+SET motor_state = "forward"
+SET motor_timer = current time
+
+SET stop_mode = FALSE
+SET delay_done = FALSE
+
+SET rotation_time = 20 seconds
+SET rotations_done = 0
+SET rotation_direction = "cw"
+
+LOOP:
+    IF stop switch is pressed AND stop_mode is FALSE:
+        ENABLE stop_mode
+        RECORD delay_start time
+
+    IF stop_mode:
+        IF delay not completed:
+            STOP motor
+            WAIT 3 seconds
+            SET delay_done = TRUE
+            SET rotation_direction = "ccw"
+            RESET timers
+
+        IF rotation_direction == "cw":
+            RUN motor forward
+            AFTER rotation_time:
+                INCREMENT rotations_done
+
+            IF rotations_done ≥ 1:
+                SWITCH to "ccw"
+
+        ELSE IF rotation_direction == "ccw":
+            RUN motor backward
+            AFTER rotation_time:
+                INCREMENT rotations_done
+
+            IF rotations_done ≥ 1:
+                STOP motor
+                EXIT loop (move to next phase)
+
+LOOP:
+    IF motor_state == "forward":
+        RUN forward
+        AFTER 7 seconds:
+            SWITCH to "backward"
+
+    ELSE IF motor_state == "backward":
+        RUN backward
+        AFTER 9 seconds:
+            SWITCH to "forward"
+
+INITIALIZE 16 NeoPixels
+
+DEFINE colors:
+    RED, ORANGE, BLUE, GREEN, OFF
+
+DEFINE function set_all(color):
+    SET all LEDs to color
+
+DEFINE function pulse_color(color, time):
+    CREATE wave using sine function
+    ADJUST brightness dynamically
+    APPLY gradient across LEDs
+
+
+INITIALIZE trig and echo pins
+
+DEFINE function measure_distance:
+    SEND ultrasonic pulse
+    MEASURE echo duration
+    CONVERT to distance (cm)
+    RETURN distance
+
+
+
+DEFINE function interpolate(color1, color2, factor):
+    RETURN blended color
+
+DEFINE function get_blended_color(distance):
+    IF distance 0–7:
+        RETURN blend RED → ORANGE
+
+    IF distance 7–14:
+        RETURN blend ORANGE → BLUE
+
+    IF distance 14–21:
+        RETURN BLUE
+
+    ELSE:
+        RETURN NONE
+
+
+SET total_score = 0
+
+PRINT "Game Starting"
+WAIT 2 seconds
+
+FOR each round (1 to 10):
+    SELECT random target color
+
+    RECORD start time
+    SET scored = FALSE
+
+    WHILE 1.5 seconds not passed:
+        DISPLAY pulsing target color
+
+        MEASURE distance
+        CONVERT distance → current color
+
+        IF current color matches target AND not scored:
+            CALCULATE reaction time
+            CALCULATE score
+            ADD to total_score
+            PRINT result
+            SET scored = TRUE
+
+    IF not scored:
+        PRINT "Missed"
+
+    WAIT 0.4 seconds
+    TURN OFF LEDs
+]
 ```
 
 ---
@@ -796,7 +959,10 @@ Suggested images:
 - final build.
 
 Example:
-```md
+```
+<img src="images/initial-brainstorming-sketches.jpeg" width="400">
+<img src="images/initial-rough-sketch.jpeg" width="400">
+<img src="initial-whiteboard-sketch.jpeg" width="400">
 
 
 
