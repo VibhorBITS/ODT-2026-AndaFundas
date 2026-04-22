@@ -466,7 +466,40 @@ Include:
 - reset behavior.
 
 **Response:**  
-`[Write here]`
+`startup behavior:`
+`esp32 powers on`
+`wifi hotspot starts (hen’s kitchen)`
+`servos set to default positions`
+`motor driver, neopixel, ultrasonic sensor initialized`
+
+`input handling:`
+`switch press triggers egg cracking servos`
+`bowl switch press triggers stop + tipping of bowl`
+
+`sensor reading:`
+`ultrasonic sensor keeps reading pan distance during cooking stage`
+
+`decision logic:`
+`if button pressed → open servos → drop egg → reset servos`
+`if switch pressed → stop conveyor → delay → rotate bowl`
+`if ultrasonic reads correct distance in minimal reaction time → gain points`
+`if ultrasonic reads incorrect distance or slow reaction time → lose points`
+
+`output behavior:`
+`servos rotate to crack egg and reset`
+`motor moves bowl left-right and then tips it`
+`neopixel flames flash in different colours`
+`reaction time recorded and printed for each colour change`
+`final score calculated + printed`
+
+`communication logic:`
+`app sends request to esp32`
+`esp32 replies with final score through wifi`
+
+`reset behavior:`
+`atored score stays available for MIT app to call`
+`neopixel turns off`
+`servos return to default position`
 
 ## 10.3 Code Flowchart
 Insert a flowchart showing your code logic.
@@ -495,7 +528,7 @@ Suggested sequence:
 # 11. MIT App Inventor Plan
 
 ## 11.1 Is an app part of this project?
-- [ ] Yes
+- [x] Yes
 - [ ] No
 
 If yes, complete this section.
@@ -512,15 +545,17 @@ Examples:
 - displaying data.
 
 **Response:**  
-`[Write here]`
+`personalization: allows topping customization via brush tools, brush size changer, undo button, `
+`displays data: lets the player see how well they cooked the egg visually by showing a burnt egg, runny egg, etc and their corresponding rating`
 
 ## 11.3 App Features
 
 | Feature | Purpose |
 |---|---|
-| `[Bluetooth connect button]` | `[Purpose]` |
-| `[Score display]` | `[Purpose]` |
-| `[Control button / slider / label]` | `[Purpose]` |
+| `[wifi connect]` | `[connects device to esp32 via network]` |
+| `[score request]` | `[fetches the final score from the esp32]` |
+| `[egg photo screen]` | `[lets the player see the egg they cooked based on score (burnt, runny, etc)]` |
+| `[egg reference]` | `[randomized egg images for players to use as a reference when drawing toppings, saves their topping drawing]` |
 
 ## 11.4 UI Mockup
 Insert a sketch or screenshot of the app interface.
