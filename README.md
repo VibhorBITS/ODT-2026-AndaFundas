@@ -945,7 +945,6 @@ Include:
 - revisions.
 
 **Response:**  
-`[Write here]`
 
 ## 17.2 Build Photos
 Add photos throughout the project.
@@ -960,9 +959,8 @@ Suggested images:
 
 Example:
 ```
-<img src="images/initial-brainstorming-sketches.jpeg" width="400">
-<img src="images/initial-rough-sketch.jpeg" width="400">
-<img src="initial-whiteboard-sketch.jpeg" width="400">
+<img width="665" height="1182" alt="initial-brainstorming-sketches" src="https://github.com/user-attachments/assets/0b74ca3d-f90e-470a-8244-2dfa80779748" />
+
 
 
 
