@@ -342,7 +342,11 @@ Check all that apply.
 Describe the mechanism and what it is meant to do.
 
 **Response:**  
-`[Write here]`
+`Button press opens servos → egg drops
+Bowl moves side-to-side on conveyor belt
+Egg lands in bowl → switch gets pressed
+Switch triggers bowl to move forward + tip over
+Egg falls out → player catches using pan`
 
 ## 8.3 Motion Planning
 If something moves, explain:
@@ -353,7 +357,32 @@ If something moves, explain:
 - what could go wrong.
 
 **Response:**  
-`[Write here]`
+`What moves:
+Egg servos
+Conveyor belt bowl
+Bowl tipping mechanism
+Player pan`
+
+`What causes movement:
+Button triggers egg drop
+Motor moves conveyor
+Switch triggers tipping`
+
+`How far it moves:
+Bowl moves across belt length
+Servos rotate ~90°
+Bowl tips`
+
+`How fast it moves:
+Bowl moves constant speed
+Tip action is quick
+Servos crack egg in a quick action`
+
+`What could go wrong:
+Egg misses bowl
+Egg doesn’t press switch
+Belt gets stuck
+Egg misses pan`
 
 ## 8.4 Simulation / CAD / Animation Before Making
 If your project includes mechanical motion, document the digital planning before fabrication.
