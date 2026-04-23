@@ -895,6 +895,7 @@ Expected outcomes:
 | `Conveyor belt doesn't rotate smoothly` | `Mechanical` | `High` | `High` | `Replace/tighten corrugated cardboard, Add friction to dowels, Change ENA in code` | `Vibhor` |
 | `Egg does not fall from the shell/bowl` | `Gameplay` | `High` | `High` | `Lubricate the egg, bowl and shell` | `Ranya, Vibhor` |
 | `Egg does not trigger limit switch in the bowl` | `Gameplay` | `High` | `High` | `Add weight, Reduce surface area of bowl and bowl size` | `Vibhor` |
+| `Switch to crack the egg stops functioning` | `Mechanical` | `Medium` | `High` | `Check wiring of the switch, Check angle of servos` | `Ranya` |
 
 ## 15.2 Biggest Unknown Right Now
 What is the single biggest uncertainty in your project at this stage?
@@ -910,7 +911,7 @@ What is the single biggest uncertainty in your project at this stage?
 
 | What Needs Testing | How You Will Test It | Success Condition |
 |---|---|---|
-| `[Bluetooth connection]` | `[Method]` | `[What counts as success?]` |
+| `WiFi connection` | `Run the Neopixel/ULtrasonic` | `[What counts as success?]` |
 | `[Mechanism movement]` | `[Method]` | `[What counts as success?]` |
 | `[Sensor behavior]` | `[Method]` | `[What counts as success?]` |
 | `[App communication]` | `[Method]` | `[What counts as success?]` |
