@@ -928,27 +928,32 @@ What is the single biggest uncertainty in your project at this stage?
 
 | What Needs Testing | How You Will Test It | Success Condition |
 |---|---|---|
-| `WiFi connection` | `Run the Neopixel/ULtrasonic` | `[What counts as success?]` |
-| `[Mechanism movement]` | `[Method]` | `[What counts as success?]` |
-| `[Sensor behavior]` | `[Method]` | `[What counts as success?]` |
-| `[App communication]` | `[Method]` | `[What counts as success?]` |
+| `WiFi connection` | `connect phone to hens kitchen hotspot + request score` | `[app successfully connects and receives score within 3 seconds]` |
+| `[egg cracking servos]` | `[press egg drop switch 10 times]` | `[servos open + reset properly every time]` |
+| `[conveyor belt movement]` | `[run motor for 2 minutes]` | `[bowl moves smoothly left-right without jamming]` |
+| `[bowl switch trigger]` | `[drop egg / press switch manually]` | `[switch triggers stop + tipping sequence correctly]` |
+| `[bowl tipping mechanism]` | `[activate tipping sequence 5 times]` | `[bowl tips fully and drops egg into pan zone]` |
+| `[neopixel stove]` | `[run cooking stage for full 10 rounds]` | `[leds show correct colours + smooth pulsing with no flicker/crash]` |
+| `[ultrasonic sensor]` | `[move pan closer/farther repeatedly]` | `[sensor readings change correctly and match zones]` |
+| `[App communication]` | `[request score after game ends]` | `[app displays final image and rating correctly every time]` |
 
 ## 16.2 Playtesting Plan
 
 | Question | How You Will Check |
 |---|---|
-| Do players understand what to do? | `[Method]` |
-| Is the interaction satisfying? | `[Method]` |
-| Do players want another turn? | `[Method]` |
-| Is the challenge balanced? | `[Method]` |
-| Is the response clear and immediate? | `[Method]` |
+| Do players understand what to do? | `[give no explanation and see if they can follow the stages using signs]` |
+| Is the interaction satisfying? | `[Observe if they get excited or are having fun]` |
+| Do players want another turn? | `[Observe if they replay without anyone asking them to]` |
+| Is the challenge balanced? | `[check how many people succeed vs fail in each stage]` |
+| Is the response clear and immediate? | `[observe if players notice when switch triggers / colours change / scoring happens]` |
 
 ## 16.3 Testing and Debugging Log
 
 | Date | Problem Found | Type | What You Tried | Result | Next Action |
 |---|---|---|---|---|---|
-| `[Date]` | `[Describe issue]` | `[Technical / Mechanical / UI / Gameplay]` | `[What you did]` | `[Worked / Partly / Failed]` | `[Next step]` |
-| `[Date]` | `[Describe issue]` | `[Type]` | `[What you did]` | `[Result]` | `[Next step]` |
+| `[19/4/26]` | `[egg servos not resetting properly, egg falling off the servo, servo itself falling due to motion ]` | `[Technical / Mechanical]` | `[tested again and checked mechanical parts and sticking + no obstructions]` | `[Worked]` | `[test again]` |
+| `[20/4/26]` | `[belt movement getting stuck, moving for too long or too little time]` | `[mechanical]` | `[checked points of friction and removed them]` | `[Worked]` | `[Stick bowl in final position]` |
+| `[20/4/26]` | `[app not receiving score sometimes]` | `[UI/Technical]` | `[Checked WIFI and Errors]` | `[Worked]` | `[Create checklist to check before running app]` |
 
 ## 16.4 Playtesting Notes
 
