@@ -60,7 +60,7 @@ By the final review, this README should clearly show:
 |---|---|---|---|
 | `Vibhor` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Conveyor Belt{coding, mechanics, building and assembly}, repo updation till 4.4, ODT parts' sketches]` | `[Write here]` |
 | `Ranya` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Cracking egg mechanism (servo coding, building, assembling); planning and execution of physical structure and props]` | `[Write here]` |
-| `Anusha` | `[Electronics / Coding / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `Anusha` | `[Electronics / Coding / Fabrication / Mechanics]` | `[stove(ultrasonic sensor coding, neopixel coding, building , assembly and aesthetics); sketches and props` | `[Write here]` |
 | `Avani` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Complete functioning of app, connection to Thonny code, building and finalising of structure & aesthetics]` | `[Write here]` |
 
 
@@ -900,33 +900,33 @@ What is the single biggest uncertainty in your project at this stage?
 | What Needs Testing | How You Will Test It | Success Condition |
 |---|---|---|
 | `[Bluetooth connection]` | `[Method]` | `[What counts as success?]` |
-| `[Mechanism movement]` | `[Method]` | `[What counts as success?]` |
-| `[Sensor behavior]` | `[Method]` | `[What counts as success?]` |
-| `[App communication]` | `[Method]` | `[What counts as success?]` |
+| `[Mechanism movement]` | `[Run the egg opening, bowl movement, and conveyor repeatedly` | `[All parts move smoothly and complete their actions consistently]` |
+| `[Sensor behavior]` | `[Test the ultrasonic sensor across different distances and zones, and repeatedly run the servo and DC motor during operation]` | `[The sensor accurately detects position and zones, and the servo and motor respond consistently and run smoothly]` |
+| `[App communication]` | `[Send data from the system to the app during gameplay]` | `[Data (like reaction time) is transferred correctly and displayed properly]` |
 
 ## 16.2 Playtesting Plan
 
 | Question | How You Will Check |
 |---|---|
-| Do players understand what to do? | `[Method]` |
-| Is the interaction satisfying? | `[Method]` |
-| Do players want another turn? | `[Method]` |
-| Is the challenge balanced? | `[Method]` |
-| Is the response clear and immediate? | `[Method]` |
+| Do players understand what to do? | `[Observe first-time users and see if they can complete the steps without explanation]` |
+| Is the interaction satisfying? | `[Ask players for feedback after playing and note their reactions during the process]` |
+| Do players want another turn? | `[See if players choose to replay without being prompted]` |
+| Is the challenge balanced? | `[Monitor reaction times and ask players if it feels too easy or too difficult]` |
+| Is the response clear and immediate? | `[Check if players notice and respond correctly to lights, movement, and feedback]` |
 
 ## 16.3 Testing and Debugging Log
 
 | Date | Problem Found | Type | What You Tried | Result | Next Action |
 |---|---|---|---|---|---|
-| `[Date]` | `[Describe issue]` | `[Technical / Mechanical / UI / Gameplay]` | `[What you did]` | `[Worked / Partly / Failed]` | `[Next step]` |
-| `[Date]` | `[Describe issue]` | `[Type]` | `[What you did]` | `[Result]` | `[Next step]` |
+| `[19/4/26]` | `[Conveyor movement was inconsistent]` | `[Mechanical]` | `[Adjusted alignment and tightened components]` | `[Partly]` | `[Further refine structure for smoother motion]` |
+| `[20/4/26]` | `[Sensor readings were not always accurate]` | `[Technical]` | `[Recalibrated distance ranges and tested multiple times]` | `[worked]` | `[Improve positioning and refine thresholds]` |
 
 ## 16.4 Playtesting Notes
 
 | Tester | What They Did | What Confused Them | What They Enjoyed | What You Will Change |
 |---|---|---|---|---|
-| `[Peer / friend / classmate]` | `[Observation]` | `[Observation]` | `[Observation]` | `[Action]` |
-| `[Peer / friend / classmate]` | `[Observation]` | `[Observation]` | `[Observation]` | `[Action]` |
+| `[Classmate]` | `[Completed the interaction step by step with minimal guidance]` | `[Initially unsure about the sequence of actions]` | `[Found the physical interaction and flow engaging]` | `[Make the sequence of steps more visually clear]` |
+| `[Friend]` | `[Interacted quickly and tried to improve their reaction time]` | `[Slight confusion during transition between stages]` | `[Liked the game-like challenge and timing aspect]` | `[Smoothen transitions and make feedback more immediate]` |
 
 ---
 
@@ -945,7 +945,9 @@ Include:
 - revisions.
 
 **Response:**  
-`[Write here]`
+`[The project was built using a wooden structure, with all the main parts cut and assembled in the MSL lab. We measured and cut the wood to form the base, conveyor system, and a frame to attach the egg mechanism, and then assembled everything using screws, glue, and basic fasteners to keep it stable.
+After the wooden structure was made, we painted it to give it a more finished and visually appealing look. We then added the electronic components, including servos, the ultrasonic sensor, and NeoPixels. The wiring was done using breadboards mounted at the back to keep things organized and accessible.
+In the final stage, we added extra props and details to make the setup more realistic and engaging, enhancing the overall kitchen theme. Throughout the process, we made small adjustments and refinements to improve both the build and how everything fit together.]`
 
 ## 17.2 Build Photos
 Add photos throughout the project.
@@ -984,23 +986,23 @@ Example:
 Describe the final version of your project.
 
 **Response:**  
-`[Write here]`
+`[Our final project is an interactive kitchen simulation where the user goes through the process of frying an egg. It starts with a servo-based egg that opens, which the user drops into a moving bowl on a conveyor belt. The bowl then carries the egg forward and drops it into a pan. The cooking stage uses NeoPixels and an ultrasonic sensor to simulate a stove, where the user has to place the pan in the correct zone based on changing colors, while their reaction time is recorded. The system then sends this data to an app where the user can add condiments. The structure is made of wood and enhanced with paint and props to create a realistic and engaging setup.]`
 
 ## 18.2 What Works Well
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[The step-by-step interaction from egg to cooking is smooth and easy to understand.]`
+- `[The combination of physical movement and light-based feedback makes the experience engaging.]`
+- `[Reaction time tracking and app integration add a game-like element to the project.]`
 
 ## 18.3 What Still Needs Improvement
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[The conveyor and moving parts could be further refined for smoother and more consistent performance..`
+- `[Sensor accuracy and responsiveness can be improved for better user interaction]`
+- `[The overall timing and coordination between different stages could be refined.]`
 
 ## 18.4 What Changed From the Original Plan
 How did the project change from the initial idea?
 
 **Response:**  
-`[Write here]`
+`[As we developed the project, we refined it by weighting the slime, simplifying the app, and modifying the conveyor belt mechanism.]`
 
 ---
 
@@ -1012,7 +1014,9 @@ What slowed you down?
 How well did you manage time, tasks, and responsibilities?
 
 **Response:**  
-`[Team worked well in task distribution, everyone was an equal asset and ]`
+`[Team worked well in task distribution, everyone was an equal asset and contributed actively to both building and problem-solving throughout the project.
+-Frequent small breakdowns meant we had to pause and troubleshoot instead of progressing.
+-Responsibilities were shared evenly, allowing steady progress throughout the project.]`
 
 ## 19.2 Technical Reflection
 What did you learn about:
@@ -1023,7 +1027,11 @@ What did you learn about:
 - integration?
 
 **Response:**  
-`[Write here]`
+`[-learned how to connect and manage multiple components (servos, sensors, NeoPixels) reliably within one system.
+-We learned how to write code that handles multiple things happening at once and keeps the interaction smooth..
+-We explored building moving parts like the egg and conveyor, and saw how tricky it is to keep them running smoothly.
+-We learned to build and refine a sturdy physical structure using wood, paint, and props for both function and aesthetics.
+-We learned how to combine hardware, software, and app communication into one interactive experience.]`
 
 ## 19.3 Design Reflection
 What did you learn about:
@@ -1035,7 +1043,12 @@ What did you learn about:
 - iteration?
 
 **Response:**  
-`[Write here]`
+`[-created simple, engaging actions (like dropping the egg into the bowl at the right time, cooking on an imitation of a stove ) that make the experience feel like a game rather than a task.
+-Small details like moving parts, lights, and color changes made the interaction more fun and satisfying.
+-Positioning components logically (egg → bowl → pan) made the process self-explanatory.
+-Direct hands-on actions (placing, dropping, moving) made the experience feel natural and engaging.
+-Familiar cooking actions made the interaction intuitive from the start.
+-Repeated testing and tweaking (timing, scoring, movement) improved both usability and enjoyment.]`
 
 ## 19.4 If You Had One More Week
 What would you improve next?
@@ -1044,7 +1057,8 @@ What would you improve next?
 `[-Find a better way to create a mock egg yolk to look more convinving but also have enough weight to initiate the conveyor belt stop switch in the bowl.
 -Make the conveyor belt more smooth
 -Improve bowl stability
--Instead of the reaction time deciding cooking quality, an "order" from a customer could initiate the game and each type of order could have a unique red, orange, blue light configuration]`
+-Instead of the reaction time deciding cooking quality, an "order" from a customer could initiate the game and each type of order could have a unique red, orange, blue light configuration
+-Have a sturdy setup for sensors]`
 
 ---
 
