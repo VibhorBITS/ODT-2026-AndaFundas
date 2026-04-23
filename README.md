@@ -751,8 +751,13 @@ Insert a sketch or screenshot of the app interface.
 | Item | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec | Why This Choice? |
 |---|---:|---|---|---:|---|---|
 | `[ESP32]` | `1` | `Yes` | `No` | `0` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
+| `[Servo motors]` | `[2]` | `[Yes]` | `[No]` | `[0]` | `[pwm servo]` | `[speed and angle control]` |
+| `[DC motor]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[motor]` | `[power for conveyor belt ]` |
+| `[Neopixel ring]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[LEDs]` | `[light is appropriate for flame effect]` |
+| `[Ultrasonic sensor]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[LEDs]` | `[light is appropriate for flame effect]` |
+| `[Limit switch]` | `[2]` | `[Yes]` | `[No]` | `[0]` | `[mechanical switch]` | `[ease of triggering is appropriate for user experience and for egg to trigger it with its weight]` |
+| `[External power supply]` | `[2]` | `[Yes]` | `[No]` | `[0]` | `[extra required voltage]` | `[necessary for higher voltage requirements for motors]` |
+
 
 ## 12.2 Material Justification
 Explain why you selected your main materials and components.
@@ -764,31 +769,36 @@ Examples:
 - Why bearing instead of a plain shaft hole?
 
 **Response:**  
-`[Write here]`
+`[used wood because it is strong and stable because our structure was planned to be vertical and have many shelves. nailing wood also provides stability and does not break easily. equipment required to cut and assemble wood was also available in the lab making it an appropriate choice.]`
+`[used mdf for the front of the conveyor belt to hold the dowels as we needed a light stable structure to hold the motor without giving it too much weight or getting in the way of the motor]`
 
 ## 12.3 Items to Purchase Separately
 
 | Item | Why Needed | Purchase Link | Latest Safe Date to Procure | Status |
 |---|---|---|---|---|
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
+| `[Pan]` | `[Realistic Cooking Experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Plastic Egg]` | `[Realistic Cooking Experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Slime making kit]` | `[Needed egg-resembling product for better immersion in experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Cutlery]` | `[Realistic Cooking Experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Dowels]` | `[Building of conveyor belt, for rotation]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
 
 ## 12.4 Budget Summary
 
 | Budget Item | Estimated Cost |
 |---|---:|
-| Electronics | `[Cost]` |
-| Mechanical parts | `[Cost]` |
-| Fabrication materials | `[Cost]` |
-| Purchased extras | `[Cost]` |
-| Contingency | `[Cost]` |
-| **Total** | `[Cost]` |
+| Electronics | `[0]` |
+| Mechanical parts | `[110]` |
+| Fabrication materials | `[0]` |
+| Purchased extras | `[791]` |
+| Contingency | `[160]` |
+| **Total** | `[1061]` |
+
 
 ## 12.5 Budget Reflection
 If your cost is too high, what can be simplified, removed, substituted, or shared?
 
 **Response:**  
-`[Write here]`
+`Cost was not unreasonably high, but could have been less. The pan (Rs.230) could have been made by hand. The rest of the costs went mainly towards making the cooking experience match the real thing, so we used real products that we could have tried to make realistically by hand. At the end of it, we decided our building time in the lab should go towards our complicated mechanics and structure and not towards the making of props, which we bought instead.`
 
 ---
 
@@ -805,20 +815,26 @@ Include:
 - how documentation will be maintained.
 
 **Response:**  
-`[Write here]`
+`The gameplay had 4 stages, which each person took up and did the entire wiring, coding and assembling of.`
+`Decisions are made via democratic discussion, taking into consideration everyone's strengths and ideas.`
+`Progress will be checked via a list of what is left to do at the end of each week of progress.`
+`If a task is delayed, the person responsible for it must ensure it is completed as soon as possible.`
+`Documentation will be maintained via videos of the process and via the WhatsApp Group.`
 
 ## 13.2 Task Breakdown
 
 | Task ID | Task | Owner | Estimated Hours | Deadline | Dependency | Status |
 |---|---|---|---:|---|---|---|
-| T1 | `[Finalize concept]` | `[Name]` | `2` | `[Date]` | `None` | `To Do` |
-| T2 | `[Complete BOM]` | `[Name]` | `1` | `[Date]` | `T1` | `To Do` |
-| T3 | `[Test electronics]` | `[Name]` | `2` | `[Date]` | `T1` | `To Do` |
-| T4 | `[Build structure]` | `[Name]` | `4` | `[Date]` | `T1` | `To Do` |
-| T5 | `[Write control code]` | `[Name]` | `4` | `[Date]` | `T3` | `To Do` |
-| T6 | `[Integrate system]` | `[Name]` | `4` | `[Date]` | `T4, T5` | `To Do` |
-| T7 | `[Playtest]` | `[Name]` | `2` | `[Date]` | `T6` | `To Do` |
-| T8 | `[Refine and document]` | `[Name]` | `3` | `[Date]` | `T7` | `To Do` |
+| T1 | `[Finalize concept]` | `[Avani, Vibhor]` | `2` | `[10/4/26]` | `None` | `Done` |
+| T2 | `[Complete BOM]` | `[Ranya, Vibhor]` | `1` | `[12/4/26]` | `T1` | `Done` |
+| T3 | `[Test electronics]` | `[Vibhor, Ranya, Avani, Anusha]` | `2` | `[14/4/26]` | `T1` | `Done` |
+| T4 | `[Build structure]` | `[Anusha, Avani, Ranya, Vibhor]` | `4` | `[19/4/26]` | `T1` | `Done` |
+| T5 | `[Write control code]` | `[Vibhor, Ranya, Avani, Anusha]` | `4` | `[19/4/26]` | `T3` | `Done` |
+| T6 | `[Integrate system]` | `[Vibhor, Ranya, Avani, Anusha]` | `4` | `[20/4/26]` | `T4, T5` | `Done` |
+| T7 | `[Playtest]` | `[Vibhor, Ranya, Avani, Anusha]` | `2` | `[20/4/26]` | `T6` | `Done` |
+| T8 | `[Refine and document]` | `[Ranya, Avani, Vibhor, Anusha]` | `3` | `[22/4/26]` | `T7` | `Done` |
+
+[Tasks were divided based on the section of gameplay, therefore everyone was involved in each aspect of their section including coding, electronics, integrating, etc.]
 
 ## 13.3 Responsibility Split
 
@@ -828,9 +844,10 @@ Include:
 | Electronics | `[Name]` | `[Name]` |
 | Coding | `[Avani, Vibhor, Anusha, Ranya ]` | `[Name]` |
 | App | `[Avani]` | `[Anusha]` |
-| Mechanical build | `[Ranya, Vibhor]` | `[Avani, Anus]` |
-| Testing | `[Name]` | `[Name]` |
-| Documentation | `[Name]` | `[Name]` |
+| Mechanical build | `[Ranya, Vibhor]` | `[Avani, Anusha]` |
+| Testing | `[All]` | `[All]` |
+| Documentation | `[All]` | `[All]` |
+
 
 ---
 
