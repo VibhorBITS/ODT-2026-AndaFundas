@@ -728,10 +728,19 @@ Insert a sketch or screenshot of the app interface.
 
 ## 11.5 App Screen Flow
 
-1. `[Step 1]`
-2. `[Step 2]`
-3. `[Step 3]`
-4. `[Step 4]`
+1. `Player taps “Get Result” button to get their result from the Ultrasonic/Neopixel game.`
+2. `Final score and egg state from the game prints on the screen on the label.`
+3. `The final score shows respective image of the state of the egg.`
+4. `If score ≤ 20, egg is burnt; ≤ 40, egg is undercooked; ≤ 60, egg is overcooked else, egg is perfectly cooked.`
+5. `Player chooses colour to draw with and draws on the canvas with the image; colours can be changed as and when they want.`
+6. `Colour preview shows which colour brush is chosen.`
+7. `Player can choose brush size on the slider.`
+8. `If any mistake, player can undo their stroke.`
+9. `Player can toggle on and off the eraser button to erase a stroke.`
+10. `Clear canvas cleans the canvas of any strokes completely.`
+11. `Player may or may not enter name (leaves the file name as “Player”).`
+12. `After finishing, player taps on “Submit button”.`
+13. `Image gets saved as: PlayerName (or Player)_finalScore_eggState_Date (MMDDYYYY)_Time (HHMMSS).png in Downloads.`
 
 ---
 
@@ -742,8 +751,13 @@ Insert a sketch or screenshot of the app interface.
 | Item | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec | Why This Choice? |
 |---|---:|---|---|---:|---|---|
 | `[ESP32]` | `1` | `Yes` | `No` | `0` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
+| `[Servo motors]` | `[2]` | `[Yes]` | `[No]` | `[0]` | `[pwm servo]` | `[speed and angle control]` |
+| `[DC motor]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[motor]` | `[power for conveyor belt ]` |
+| `[Neopixel ring]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[LEDs]` | `[light is appropriate for flame effect]` |
+| `[Ultrasonic sensor]` | `[1]` | `[Yes]` | `[No]` | `[0]` | `[LEDs]` | `[light is appropriate for flame effect]` |
+| `[Limit switch]` | `[2]` | `[Yes]` | `[No]` | `[0]` | `[mechanical switch]` | `[ease of triggering is appropriate for user experience and for egg to trigger it with its weight]` |
+| `[External power supply]` | `[2]` | `[Yes]` | `[No]` | `[0]` | `[extra required voltage]` | `[necessary for higher voltage requirements for motors]` |
+
 
 ## 12.2 Material Justification
 Explain why you selected your main materials and components.
@@ -755,31 +769,36 @@ Examples:
 - Why bearing instead of a plain shaft hole?
 
 **Response:**  
-`[Write here]`
+`[used wood because it is strong and stable because our structure was planned to be vertical and have many shelves. nailing wood also provides stability and does not break easily. equipment required to cut and assemble wood was also available in the lab making it an appropriate choice.]`
+`[used mdf for the front of the conveyor belt to hold the dowels as we needed a light stable structure to hold the motor without giving it too much weight or getting in the way of the motor]`
 
 ## 12.3 Items to Purchase Separately
 
 | Item | Why Needed | Purchase Link | Latest Safe Date to Procure | Status |
 |---|---|---|---|---|
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
+| `[Pan]` | `[Realistic Cooking Experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Plastic Egg]` | `[Realistic Cooking Experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Slime making kit]` | `[Needed egg-resembling product for better immersion in experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Cutlery]` | `[Realistic Cooking Experience]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
+| `[Dowels]` | `[Building of conveyor belt, for rotation]` | `[-]` | `[2 weeks before exhibition]` | `[Received]` |
 
 ## 12.4 Budget Summary
 
 | Budget Item | Estimated Cost |
 |---|---:|
-| Electronics | `[Cost]` |
-| Mechanical parts | `[Cost]` |
-| Fabrication materials | `[Cost]` |
-| Purchased extras | `[Cost]` |
-| Contingency | `[Cost]` |
-| **Total** | `[Cost]` |
+| Electronics | `[0]` |
+| Mechanical parts | `[110]` |
+| Fabrication materials | `[0]` |
+| Purchased extras | `[791]` |
+| Contingency | `[160]` |
+| **Total** | `[1061]` |
+
 
 ## 12.5 Budget Reflection
 If your cost is too high, what can be simplified, removed, substituted, or shared?
 
 **Response:**  
-`[Write here]`
+`Cost was not unreasonably high, but could have been less. The pan (Rs.230) could have been made by hand. The rest of the costs went mainly towards making the cooking experience match the real thing, so we used real products that we could have tried to make realistically by hand. At the end of it, we decided our building time in the lab should go towards our complicated mechanics and structure and not towards the making of props, which we bought instead.`
 
 ---
 
@@ -796,20 +815,26 @@ Include:
 - how documentation will be maintained.
 
 **Response:**  
-`[Write here]`
+`The gameplay had 4 stages, which each person took up and did the entire wiring, coding and assembling of.`
+`Decisions are made via democratic discussion, taking into consideration everyone's strengths and ideas.`
+`Progress will be checked via a list of what is left to do at the end of each week of progress.`
+`If a task is delayed, the person responsible for it must ensure it is completed as soon as possible.`
+`Documentation will be maintained via videos of the process and via the WhatsApp Group.`
 
 ## 13.2 Task Breakdown
 
 | Task ID | Task | Owner | Estimated Hours | Deadline | Dependency | Status |
 |---|---|---|---:|---|---|---|
-| T1 | `[Finalize concept]` | `[Name]` | `2` | `[Date]` | `None` | `To Do` |
-| T2 | `[Complete BOM]` | `[Name]` | `1` | `[Date]` | `T1` | `To Do` |
-| T3 | `[Test electronics]` | `[Name]` | `2` | `[Date]` | `T1` | `To Do` |
-| T4 | `[Build structure]` | `[Name]` | `4` | `[Date]` | `T1` | `To Do` |
-| T5 | `[Write control code]` | `[Name]` | `4` | `[Date]` | `T3` | `To Do` |
-| T6 | `[Integrate system]` | `[Name]` | `4` | `[Date]` | `T4, T5` | `To Do` |
-| T7 | `[Playtest]` | `[Name]` | `2` | `[Date]` | `T6` | `To Do` |
-| T8 | `[Refine and document]` | `[Name]` | `3` | `[Date]` | `T7` | `To Do` |
+| T1 | `[Finalize concept]` | `[Avani, Vibhor]` | `2` | `[10/4/26]` | `None` | `Done` |
+| T2 | `[Complete BOM]` | `[Ranya, Vibhor]` | `1` | `[12/4/26]` | `T1` | `Done` |
+| T3 | `[Test electronics]` | `[Vibhor, Ranya, Avani, Anusha]` | `2` | `[14/4/26]` | `T1` | `Done` |
+| T4 | `[Build structure]` | `[Anusha, Avani, Ranya, Vibhor]` | `4` | `[19/4/26]` | `T1` | `Done` |
+| T5 | `[Write control code]` | `[Vibhor, Ranya, Avani, Anusha]` | `4` | `[19/4/26]` | `T3` | `Done` |
+| T6 | `[Integrate system]` | `[Vibhor, Ranya, Avani, Anusha]` | `4` | `[20/4/26]` | `T4, T5` | `Done` |
+| T7 | `[Playtest]` | `[Vibhor, Ranya, Avani, Anusha]` | `2` | `[20/4/26]` | `T6` | `Done` |
+| T8 | `[Refine and document]` | `[Ranya, Avani, Vibhor, Anusha]` | `3` | `[22/4/26]` | `T7` | `Done` |
+
+[Tasks were divided based on the section of gameplay, therefore everyone was involved in each aspect of their section including coding, electronics, integrating, etc.]
 
 ## 13.3 Responsibility Split
 
@@ -819,9 +844,10 @@ Include:
 | Electronics | `[Name]` | `[Name]` |
 | Coding | `[Avani, Vibhor, Anusha, Ranya ]` | `[Name]` |
 | App | `[Avani]` | `[Anusha]` |
-| Mechanical build | `[Ranya, Vibhor]` | `[Avani, Anus]` |
-| Testing | `[Name]` | `[Name]` |
-| Documentation | `[Name]` | `[Name]` |
+| Mechanical build | `[Ranya, Vibhor]` | `[Avani, Anusha]` |
+| Testing | `[All]` | `[All]` |
+| Documentation | `[All]` | `[All]` |
+
 
 ---
 
@@ -831,46 +857,46 @@ Include:
 
 ### Week 1 — Plan and De-risk
 Expected outcomes:
-- [ ] Idea finalized
-- [ ] Core interaction decided
-- [ ] Sketches made
+- [x] Idea finalized
+- [x] Core interaction decided
+- [x] Sketches made
 - [ ] BOM completed
-- [ ] Purchase needs identified
+- [x] Purchase needs identified
 - [ ] Key uncertainty identified
-- [ ] Basic feasibility tested
+- [x] Basic feasibility tested
 
 ### Week 2 — Build Subsystems
 Expected outcomes:
-- [ ] Electronics tests completed
+- [x] Electronics tests completed
 - [ ] CAD / structure planning completed
-- [ ] App UI started if needed
+- [x] App UI started if needed
 - [ ] Mechanical concept tested
-- [ ] Main subsystems partially working
+- [x] Main subsystems partially working
 
 ### Week 3 — Integrate
 Expected outcomes:
 - [ ] Physical body built
-- [ ] Electronics integrated
-- [ ] Code connected to hardware
-- [ ] App connected if required
-- [ ] First playable version exists
+- [x] Electronics integrated
+- [x] Code connected to hardware
+- [x] App connected if required
+- [x] First playable version exists
 
 ### Week 4 — Refine and Finish
 Expected outcomes:
-- [ ] Technical bugs reduced
+- [x] Technical bugs reduced
 - [ ] Playtesting completed
-- [ ] Improvements made
-- [ ] Documentation completed
-- [ ] Final build ready
+- [x] Improvements made
+- [x] Documentation completed
+- [x] Final build ready
 
 ## 14.2 Weekly Update Log
 
 | Week | Planned Goal | What Actually Happened | What Changed | Next Steps |
 |---|---|---|---|---|
-| Week 1 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 2 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 1 | `[Idea finalized, Core interaction decided, Sketches made ` | `[Idea finalized, Rough sketches made]` | `[Shortlisted to one idea, discussing on how to improve it]` | `[Make a detailed sketch, Decide materials and electronics required]` |
+| Week 2 | `[BOM completed, Purchase needs identified, Key uncertainty identified, Basic feasibility tested]` | `[Purchase needs identified, Rough testing of codes, Partial purchases made]` | `[Started working on code, Purchased non-electronics, Progressive BOM made]` | `[Purchase electronics, Complete BOM]` |
+| Week 3 | `[Physical body built, Electronics integrated,  Code and app connected]` | `[Electronics integrated, Codes merged, Code and app connected to hardware]` | `[Finalising all codes, Electronics purchased and integrated, App structure finished]` | `Building physical body, Test merged codes, fix hardware issues` |
+| Week 4 | `Bugs fixed, Playtesting completed, Documentation and final build ready` | `Technical bugs in code fixed, Final build ready, Documentation completed, Improvements made` | `Electronics attached to physical build, Merged codes tested, Aesthetics` | `Several rounds of testing` |
 
 ---
 
@@ -880,16 +906,19 @@ Expected outcomes:
 
 | Risk | Type | Likelihood | Impact | Mitigation Plan | Owner |
 |---|---|---|---|---|---|
-| `[Example: Bluetooth disconnects]` | `Technical` | `Medium` | `High` | `[Fallback interaction / simplify connection flow]` | `[Name]` |
-| `[Example: Structure breaks during play]` | `Mechanical` | `Medium` | `High` | `[Reinforce joints / change material]` | `[Name]` |
-| `[Risk]` | `[Technical / Material / Time / Gameplay]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
-| `[Risk]` | `[Type]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
+| `WiFi/URL disconnects` | `Technical` | `Medium` | `High` | `Simplify connection flow, Restart connection, Alter code` | `Avani` |
+| `Parts of physical body breaks` | `Mechanical` | `Low` | `High` | `Reinforce joints and` | `Avani, Vibhor` |
+| `Servo stops working/malfunctions` | `Mechanical` | `High` | `High` | `Change angles of Servo, Replace Servos` | `Ranya` |
+| `Conveyor belt doesn't rotate smoothly` | `Mechanical` | `High` | `High` | `Replace/tighten corrugated cardboard, Add friction to dowels, Change ENA in code` | `Vibhor` |
+| `Egg does not fall from the shell/bowl` | `Gameplay` | `High` | `High` | `Lubricate the egg, bowl and shell` | `Ranya, Vibhor` |
+| `Egg does not trigger limit switch in the bowl` | `Gameplay` | `High` | `High` | `Add weight, Reduce surface area of bowl and bowl size` | `Vibhor` |
+| `Switch to crack the egg stops functioning` | `Mechanical` | `Medium` | `High` | `Check wiring of the switch, Check angle of servos` | `Ranya` |
 
 ## 15.2 Biggest Unknown Right Now
 What is the single biggest uncertainty in your project at this stage?
 
 **Response:**  
-`[Write here]`
+`The biggest uncertainty in the project right now is whether all the mechanical and electronic components will work reliably together in real-time. There are multiple unresolved issues affecting the system’s consistency. The servo mechanism is not dropping the egg into the bowl sometimes. The conveyor belt is not rotating smoothly and experiences interruptions, which affects timing and positioning. Additionally, the egg is sometimes not properly triggering the switch in the bowl due to its low weight. The bowl itself is also not tipping correctly at the edge to release the egg as intended. The app is not consistently receiving results through the URL, and in some cases, it crashes upon input, which further affects the overall user experience. Together, these issues make it uncertain whether the system can perform the full sequence seamlessly and consistently.`
 
 ---
 
@@ -899,27 +928,32 @@ What is the single biggest uncertainty in your project at this stage?
 
 | What Needs Testing | How You Will Test It | Success Condition |
 |---|---|---|
-| `[Bluetooth connection]` | `[Method]` | `[What counts as success?]` |
-| `[Mechanism movement]` | `[Run the egg opening, bowl movement, and conveyor repeatedly` | `[All parts move smoothly and complete their actions consistently]` |
-| `[Sensor behavior]` | `[Test the ultrasonic sensor across different distances and zones, and repeatedly run the servo and DC motor during operation]` | `[The sensor accurately detects position and zones, and the servo and motor respond consistently and run smoothly]` |
-| `[App communication]` | `[Send data from the system to the app during gameplay]` | `[Data (like reaction time) is transferred correctly and displayed properly]` |
+| `WiFi connection` | `connect phone to hens kitchen hotspot + request score` | `[app successfully connects and receives score within 3 seconds]` |
+| `[egg cracking servos]` | `[press egg drop switch 10 times]` | `[servos open + reset properly every time]` |
+| `[conveyor belt movement]` | `[run motor for 2 minutes]` | `[bowl moves smoothly left-right without jamming]` |
+| `[bowl switch trigger]` | `[drop egg / press switch manually]` | `[switch triggers stop + tipping sequence correctly]` |
+| `[bowl tipping mechanism]` | `[activate tipping sequence 5 times]` | `[bowl tips fully and drops egg into pan zone]` |
+| `[neopixel stove]` | `[run cooking stage for full 10 rounds]` | `[leds show correct colours + smooth pulsing with no flicker/crash]` |
+| `[ultrasonic sensor]` | `[move pan closer/farther repeatedly]` | `[sensor readings change correctly and match zones]` |
+| `[App communication]` | `[request score after game ends]` | `[app displays final image and rating correctly every time]` |
 
 ## 16.2 Playtesting Plan
 
 | Question | How You Will Check |
 |---|---|
-| Do players understand what to do? | `[Observe first-time users and see if they can complete the steps without explanation]` |
-| Is the interaction satisfying? | `[Ask players for feedback after playing and note their reactions during the process]` |
-| Do players want another turn? | `[See if players choose to replay without being prompted]` |
-| Is the challenge balanced? | `[Monitor reaction times and ask players if it feels too easy or too difficult]` |
-| Is the response clear and immediate? | `[Check if players notice and respond correctly to lights, movement, and feedback]` |
+| Do players understand what to do? | `[give no explanation and see if they can follow the stages using signs]` |
+| Is the interaction satisfying? | `[Observe if they get excited or are having fun]` |
+| Do players want another turn? | `[Observe if they replay without anyone asking them to]` |
+| Is the challenge balanced? | `[check how many people succeed vs fail in each stage]` |
+| Is the response clear and immediate? | `[observe if players notice when switch triggers / colours change / scoring happens]` |
 
 ## 16.3 Testing and Debugging Log
 
 | Date | Problem Found | Type | What You Tried | Result | Next Action |
 |---|---|---|---|---|---|
-| `[19/4/26]` | `[Conveyor movement was inconsistent]` | `[Mechanical]` | `[Adjusted alignment and tightened components]` | `[Partly]` | `[Further refine structure for smoother motion]` |
-| `[20/4/26]` | `[Sensor readings were not always accurate]` | `[Technical]` | `[Recalibrated distance ranges and tested multiple times]` | `[worked]` | `[Improve positioning and refine thresholds]` |
+| `[19/4/26]` | `[egg servos not resetting properly, egg falling off the servo, servo itself falling due to motion ]` | `[Technical / Mechanical]` | `[tested again and checked mechanical parts and sticking + no obstructions]` | `[Worked]` | `[test again]` |
+| `[20/4/26]` | `[belt movement getting stuck, moving for too long or too little time]` | `[mechanical]` | `[checked points of friction and removed them]` | `[Worked]` | `[Stick bowl in final position]` |
+| `[20/4/26]` | `[app not receiving score sometimes]` | `[UI/Technical]` | `[Checked WIFI and Errors]` | `[Worked]` | `[Create checklist to check before running app]` |
 
 ## 16.4 Playtesting Notes
 
@@ -962,9 +996,8 @@ Suggested images:
 
 Example:
 ```
-<img src="images/initial-brainstorming-sketches.jpeg" width="400">
-<img src="images/initial-rough-sketch.jpeg" width="400">
-<img src="initial-whiteboard-sketch.jpeg" width="400">
+<img width="665" height="1182" alt="initial-brainstorming-sketches" src="https://github.com/user-attachments/assets/0b74ca3d-f90e-470a-8244-2dfa80779748" />
+
 
 
 
