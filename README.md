@@ -831,46 +831,46 @@ Include:
 
 ### Week 1 — Plan and De-risk
 Expected outcomes:
-- [ ] Idea finalized
-- [ ] Core interaction decided
-- [ ] Sketches made
+- [x] Idea finalized
+- [x] Core interaction decided
+- [x] Sketches made
 - [ ] BOM completed
-- [ ] Purchase needs identified
+- [x] Purchase needs identified
 - [ ] Key uncertainty identified
-- [ ] Basic feasibility tested
+- [x] Basic feasibility tested
 
 ### Week 2 — Build Subsystems
 Expected outcomes:
-- [ ] Electronics tests completed
+- [x] Electronics tests completed
 - [ ] CAD / structure planning completed
-- [ ] App UI started if needed
+- [x] App UI started if needed
 - [ ] Mechanical concept tested
-- [ ] Main subsystems partially working
+- [x] Main subsystems partially working
 
 ### Week 3 — Integrate
 Expected outcomes:
 - [ ] Physical body built
-- [ ] Electronics integrated
-- [ ] Code connected to hardware
-- [ ] App connected if required
-- [ ] First playable version exists
+- [x] Electronics integrated
+- [x] Code connected to hardware
+- [x] App connected if required
+- [x] First playable version exists
 
 ### Week 4 — Refine and Finish
 Expected outcomes:
-- [ ] Technical bugs reduced
+- [x] Technical bugs reduced
 - [ ] Playtesting completed
-- [ ] Improvements made
-- [ ] Documentation completed
-- [ ] Final build ready
+- [x] Improvements made
+- [x] Documentation completed
+- [x] Final build ready
 
 ## 14.2 Weekly Update Log
 
 | Week | Planned Goal | What Actually Happened | What Changed | Next Steps |
 |---|---|---|---|---|
-| Week 1 | `[Idea finalized, Core interaction decided, Sketches made ` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 2 | `[BOM completed, Purchase needs identified, Key uncertainty identified, Basic feasibility tested]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 1 | `[Idea finalized, Core interaction decided, Sketches made ` | `[Idea finalized, Rough sketches made]` | `[Shortlisted to one idea, discussing on how to improve it]` | `[Make a detailed sketch, Decide materials and electronics required]` |
+| Week 2 | `[BOM completed, Purchase needs identified, Key uncertainty identified, Basic feasibility tested]` | `[Purchase needs identified, Rough testing of codes, Partial purchases made]` | `[Started working on code, Purchased non-electronics, Progressive BOM made]` | `[Purchase electronics, Complete BOM]` |
+| Week 3 | `[Physical body built, Electronics integrated,  Code and app connected]` | `[Electronics integrated, Codes merged, Code and app connected to hardware]` | `[Finalising all codes, Electronics purchased and integrated, App structure finished]` | `Building physical body, Test merged codes, fix hardware issues` |
+| Week 4 | `Bugs fixed, Playtesting completed, Documentation and final build ready` | `Technical bugs in code fixed, Final build ready, Documentation completed, Improvements made` | `Electronics attached to physical build, Merged codes tested, Aesthetics` | `Several rounds of testing` |
 
 ---
 
@@ -880,16 +880,18 @@ Expected outcomes:
 
 | Risk | Type | Likelihood | Impact | Mitigation Plan | Owner |
 |---|---|---|---|---|---|
-| `[Example: Bluetooth disconnects]` | `Technical` | `Medium` | `High` | `[Fallback interaction / simplify connection flow]` | `[Name]` |
-| `[Example: Structure breaks during play]` | `Mechanical` | `Medium` | `High` | `[Reinforce joints / change material]` | `[Name]` |
-| `[Risk]` | `[Technical / Material / Time / Gameplay]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
-| `[Risk]` | `[Type]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
+| `WiFi/URL disconnects` | `Technical` | `Medium` | `High` | `Simplify connection flow, Restart connection, Alter code` | `Avani` |
+| `Parts of physical body breaks` | `Mechanical` | `Low` | `High` | `Reinforce joints and` | `Avani, Vibhor` |
+| `Servo stops working/malfunctions` | `Mechanical` | `High` | `High` | `Change angles of Servo, Replace Servos` | `Ranya` |
+| `Conveyor belt doesn't rotate smoothly` | `Mechanical` | `High` | `High` | `Replace/tighten corrugated cardboard, Add friction to dowels, Change ENA in code` | `Vibhor` |
+| `Egg does not fall from the shell/bowl` | `Gameplay` | `High` | `High` | `Lubricate the egg, bowl and shell` | `Ranya, Vibhor` |
+| `Egg does not trigger limit switch in the bowl` | `Gameplay` | `High` | `High` | `Add weight, Reduce surface area of bowl and bowl size` | `Vibhor` |
 
 ## 15.2 Biggest Unknown Right Now
 What is the single biggest uncertainty in your project at this stage?
 
 **Response:**  
-`[Write here]`
+`The biggest uncertainty in the project right now is whether all the mechanical and electronic components will work reliably together in real-time. There are multiple unresolved issues affecting the system’s consistency. The servo mechanism is not dropping the egg into the bowl sometimes. The conveyor belt is not rotating smoothly and experiences interruptions, which affects timing and positioning. Additionally, the egg is sometimes not properly triggering the switch in the bowl due to its low weight. The bowl itself is also not tipping correctly at the edge to release the egg as intended. The app is not consistently receiving results through the URL, and in some cases, it crashes upon input, which further affects the overall user experience. Together, these issues make it uncertain whether the system can perform the full sequence seamlessly and consistently.`
 
 ---
 
