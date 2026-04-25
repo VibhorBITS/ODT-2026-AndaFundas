@@ -725,7 +725,7 @@ Examples:
 Insert a sketch or screenshot of the app interface.
 
 **Insert image below:**  
-<img width="1112" height="1600" alt="app" src="https://github.com/user-attachments/assets/9620771c-5157-4484-9596-ef190a16ef0b" />
+<img width="1112" height="1600" alt="app" src="https://github.com/user-attachments/assets/9620771c-5157-4484-9596-ef190a16ef0b"/>
 
 
 ## 11.5 App Screen Flow
