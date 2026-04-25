@@ -1,4 +1,3 @@
-<img width="665" height="1182" alt="initial-brainstorming-sketches" src="https://github.com/user-attachments/assets/d6108d86-5df7-45c5-9e38-6795dc218dff" /><img width="1112" height="1600" alt="app" src="https://github.com/user-attachments/assets/3bc374ea-4000-4357-97f0-6a92a13c5924" />
 # Open Design and Technology  
 ## Final Project README
 
@@ -431,7 +430,8 @@ Describe the main electrical connections.
 Insert a hand-drawn or software-made circuit diagram.
 
 **Insert image below:**  
-`[Upload image and link here]`
+<img width="1536" height="1024" alt="circuit-diagram" src="https://github.com/user-attachments/assets/d0558c4b-fdce-474c-977f-c621f6f02573"/>
+
 
 ## 9.4 Power Plan
 
