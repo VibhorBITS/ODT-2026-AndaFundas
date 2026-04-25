@@ -1,4 +1,4 @@
-<img width="1112" height="1600" alt="app" src="https://github.com/user-attachments/assets/3bc374ea-4000-4357-97f0-6a92a13c5924" />
+<img width="665" height="1182" alt="initial-brainstorming-sketches" src="https://github.com/user-attachments/assets/d6108d86-5df7-45c5-9e38-6795dc218dff" /><img width="1112" height="1600" alt="app" src="https://github.com/user-attachments/assets/3bc374ea-4000-4357-97f0-6a92a13c5924" />
 # Open Design and Technology  
 ## Final Project README
 
@@ -997,13 +997,16 @@ Suggested images:
 - final build.
 
 Example:
-```
-<img width="665" height="1182" alt="initial-brainstorming-sketches" src="https://github.com/user-attachments/assets/0b74ca3d-f90e-470a-8244-2dfa80779748" />
+<img width="946" height="1600" alt="WhatsApp Image 2026-04-22 at 7 31 42 PM" src="https://github.com/user-attachments/assets/4c3d3aff-7cca-4888-8a36-9ff0bbf06eb8"/>
+<img width="1180" height="1600" alt="WhatsApp Image 2026-04-22 at 7 31 42 PM (2)" src="https://github.com/user-attachments/assets/028536b3-b2b4-4c79-be2e-502fb461e81c"/>
+<img width="1146" height="1600" alt="WhatsApp Image 2026-04-22 at 7 31 42 PM (1)" src="https://github.com/user-attachments/assets/cded942c-275d-49b8-9236-5cf4fc3dc19f"/>
+<img width="902" height="1600" alt="WhatsApp Image 2026-04-22 at 9 11 50 PM" src="https://github.com/user-attachments/assets/ad1fefa4-31d8-4b48-a769-397e0a51f1c9"/>
+<img width="1001" height="1340" alt="WhatsApp Image 2026-04-22 at 8 57 15 PM" src="https://github.com/user-attachments/assets/cf49c8fa-364a-412b-9fdc-50cf16a93fce"/>
+<img width="900" height="1600" alt="initial-whiteboard-sketch" src="https://github.com/user-attachments/assets/81ac9a0e-b865-423f-9045-d83ec5136b8f"/>
+<img width="960" height="1280" alt="initial-rough-sketch" src="https://github.com/user-attachments/assets/b060b945-ad51-40cc-af67-704a4016200c"/>
+<img width="665" height="1182" alt="initial-brainstorming-sketches" src="https://github.com/user-attachments/assets/3fea966a-f5ef-461e-8842-5eda14de7201"/>
+<img width="1200" height="1600" alt="finalmodel-sideview" src="https://github.com/user-attachments/assets/f35b454d-ba30-48e6-91ef-6208d42f14c8" />
 
-
-
-
-```
 
 ## 17.3 Version History
 
