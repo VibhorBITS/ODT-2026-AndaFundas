@@ -1,3 +1,4 @@
+<img width="1112" height="1600" alt="app" src="https://github.com/user-attachments/assets/3bc374ea-4000-4357-97f0-6a92a13c5924" />
 # Open Design and Technology  
 ## Final Project README
 
@@ -724,7 +725,8 @@ Examples:
 Insert a sketch or screenshot of the app interface.
 
 **Insert image below:**  
-`[Upload image and link here]`
+<img width="1112" height="1600" alt="app" src="https://github.com/user-attachments/assets/9620771c-5157-4484-9596-ef190a16ef0b" />
+
 
 ## 11.5 App Screen Flow
 
